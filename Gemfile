@@ -29,6 +29,15 @@ end
 group :test do
   gem 'rspec'
   gem 'webrat'
+  gem 'autotest'
+  gem 'autotest-rails-pure'
+  gem 'autotest-fsevent'
+  gem 'autotest-growl'
+  gem 'capybara'
+  gem 'rb-fsevent', :require => false
+  gem 'growl'
+  gem 'guard-spork'
+  gem 'spork'
 end
 
 # To use ActiveModel has_secure_password
